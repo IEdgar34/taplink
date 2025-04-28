@@ -9,6 +9,9 @@
         border-radius: 40px;
         padding-top: 35px;
         position: relative;
+        @media(max-width: 386px){
+            padding-top: 10px;
+        }
         &-bg {
             display: block;
             /* margin-top: 35px; */
