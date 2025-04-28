@@ -17,6 +17,7 @@
             right: 15px;
             top: 50%;
             transform: translateY(-50%);
+            pointer-events: none;
             @media(max-width: 400px){
 
             }
@@ -24,18 +25,15 @@
         .social__btn {
             display: flex;
             align-items: center;
-            /*  width: 379px; */
             width: 100%;
             max-width: 379px;
             height: 60px;
             background-color: #0077ff;
             border-radius: 40px;
             padding: 10px 15px 10px 20px;
-
             color: #fff;
             font-weight: 500;
             font-size: 19px;
-            /*  line-height: 110%; */
         }
     }
     &__btn-watsapp {
@@ -48,6 +46,7 @@
             right: 10px;
             top: 50%;
             transform: translateY(-50%);
+            pointer-events: none;
             @media(max-width: 380px){
                 width: 42px;
                 height: 42px;
@@ -58,7 +57,6 @@
             align-items: center;
             width: 100%;
             max-width: 379px;
-            /* width: 379px; */
             height: 60px;
             background-color: #25d366;
             border-radius: 40px;
@@ -67,7 +65,6 @@
             color: #fff;
             font-weight: 500;
             font-size: 19px;
-            /*  line-height: 110%; */
             @media (max-width: 418px) {
                 font-size: 16px;
             }
