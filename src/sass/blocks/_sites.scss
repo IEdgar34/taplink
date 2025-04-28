@@ -1,0 +1,106 @@
+.sites {
+    padding-bottom: 60px;
+    &__wrapp {
+        max-width: 380px;
+        min-height: 480px;
+        /*   overflow: hidden; */
+        background: #eb5d1c;
+        background: linear-gradient(149deg, rgba(235, 93, 28, 1) 0%, rgba(244, 150, 25, 1) 93%);
+        border-radius: 40px;
+        padding-top: 35px;
+        position: relative;
+        &-bg {
+            display: block;
+            /* margin-top: 35px; */
+            width: 381px;
+            width: 100%;
+            height: 256px;
+            object-fit: contain;
+        }
+    }
+
+    &__descr-wrapp {
+        /* width: 100%; */
+        position: absolute;
+        top: 312px;
+        left: 20px;
+    }
+    &__title {
+        max-width: 320px;
+        margin-bottom: 18px;
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 110%;
+        color: white;
+    }
+    &__btn-wrapp {
+        width: 100%;
+        position: relative;
+    }
+    &__btn {
+        display: block;
+        width: 338px;
+        height: 60px;
+        background-color: #fff;
+        border-radius: 40px;
+        padding: 20px 0 0 36px;
+        font-size: 19px;
+        font-weight: 500;
+        color: #323234;
+        &-img {
+            display: block;
+            width: 40px;
+            height: 26px;
+            position: absolute;
+            top: 30%;
+            right: -6px;
+            transform: translateX(-50%);
+            @media (max-width: 419px) {
+                right: -8px;
+            }
+        }
+    }
+}
+
+.advertising__btn-wrapp {
+    width: 100%;
+    padding-bottom: 136px;
+    &.advertising__btn-wrapp {
+        position: relative;
+    }
+    @media (max-width: 419px) {
+        .advertising__btn {
+            font-size: 23;
+        }
+    }
+    .advertising__btn {
+        display: flex;
+        align-items: center;
+        /*  width: 384px; */
+        width: 100%;
+        max-width: 384px;
+        height: 60px;
+        background: #eb5d1c;
+        background: linear-gradient(149deg, rgba(235, 93, 28, 1) 0%, rgba(244, 150, 25, 1) 93%);
+        border-radius: 40px;
+        padding: 14px 10px 10px 26px;
+        color: white;
+        font-size: 33px;
+        line-height: 110%;
+        font-weight: 700;
+        @media(max-width:421px){
+            font-size: 23px;
+        }
+       
+    }
+    .advertising__icon {
+        display: block;
+        width: 40px;
+        height: 26px;
+        position: absolute;
+        top: 9%;
+        right: -12px;
+        transform: translateX(-50%);
+    }
+}
+

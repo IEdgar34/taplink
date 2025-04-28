@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "UNCAGE", sans-serif;
+}
+.container {
+    max-width: 380px;
+    height: auto;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol {
+    list-style-type: none;
+}
+html,
+body {
+    height: 100%;
+    /* background-color: black; */
+}
+.wrapper {
+    max-width: 430px;
+    height: auto;
+    padding: 0 25px;
+    background-color: rgb(40, 40, 40);
+    @media (max-width: 400px) {
+        padding: 0 10px;
+    }
+}
